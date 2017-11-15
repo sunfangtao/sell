@@ -24,6 +24,7 @@ public class NewCarDaoImpl implements NewCarDao {
         PreparedStatement ps = null;
         ResultSet rs = null;
 
+
         NewCarModel newCarModel = null;
         StringBuffer sb = new StringBuffer();
         sb.append("select * from new_car where id = ? and del_flag = 0");
